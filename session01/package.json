@@ -1,0 +1,15 @@
+{
+  "name": "basic01",
+  "version": "1.0.0",
+  "description": "basic01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Akram Khan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
