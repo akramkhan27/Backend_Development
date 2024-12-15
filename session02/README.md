@@ -1,0 +1,5 @@
+- In this session i have learn how to connect backend and frontend
+- what are the ways to solve the issue of cors
+- also learn about proxy which solve the cors problem
+- what are the bad practice to solve the cors problem like adding dist folder of frontend in backend
+- cors library to whitelist the url's from where we are requesting the backend

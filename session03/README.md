@@ -1,0 +1,3 @@
+- In this session i have learn about mongoose
+- to create schema and model
+- practice the creation of models
