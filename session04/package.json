@@ -1,0 +1,19 @@
+{
+  "name": "youtubebackend",
+  "version": "1.0.0",
+  "description": "Creating a youtube backend with the help of given model digram in readme",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "youtube",
+    "backend"
+  ],
+  "author": "Akram khan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
