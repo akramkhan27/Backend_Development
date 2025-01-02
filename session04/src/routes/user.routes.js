@@ -37,20 +37,20 @@ router.route("/login").post(userLogin)
 router.route("/logout").post(verifyJwt, userLogout);
 router.route("/refresh-token").post(verifyJwt ,accessRefreshToken);
 router.route("/change-password").put(verifyJwt,changeUserPassword);
-router.route("/update-details").put(verifyJwt, updateUserDetails);
-router.route("/get-user").get(verifyJwt ,getCurrentUser);
-router.route("/update-avatar-image").put(
+router.route("/update-user-details").patch(verifyJwt, updateUserDetails);
+router.route("/current-user").get(verifyJwt ,getCurrentUser);
+router.route("/update-avatar").patch(
     verifyJwt, 
     upload.single("avatar"),
     updateAvatar
 );
-router.route("/update-cover-image").put(
+router.route("/update-cover").patch(
     verifyJwt,
     upload.single("coverImage"),
     updateCoverImage
 );
-router.route("/get-user-channel-profile").get(verifyJwt, getUserChannelProfile);
-router.route("/get-watch-history").get(verifyJwt, getWatchHistory);
+router.route("/user-channel-profile/:userName").get(verifyJwt, getUserChannelProfile);
+router.route("/watch-history").get(verifyJwt, getWatchHistory);
 
 
 export default router;
